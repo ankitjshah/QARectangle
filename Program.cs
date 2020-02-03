@@ -10,6 +10,7 @@ namespace Rectangle
     {
         static void Main(string[] args)
         {
+
         }
     }
 }
