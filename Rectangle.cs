@@ -32,7 +32,7 @@ namespace Rectangle
         }
         public int GetWidth()
         {
-            return 0;
+            return this.width;
         }
         public void SetWidth(int width)
         {
