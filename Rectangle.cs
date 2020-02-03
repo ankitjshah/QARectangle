@@ -34,11 +34,11 @@ namespace Rectangle
         {
             return 0;
         }
-        public void SetWidth(int width) 
+        public void SetWidth(int width)
         {
             this.width = width;
         }
-        public int GetPerimeter() 
+        public int GetPerimeter()
         {
             return 2 * (this.width + this.length);
         }
@@ -47,6 +47,6 @@ namespace Rectangle
         {
             return this.length * this.width;
         }
-
     }
+
 }
