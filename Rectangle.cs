@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Rectangle
+namespace Assignment01
 {
-    class Rectangle
+    public class Rectangle
     {
         private int length;
         private int width;
@@ -26,17 +26,19 @@ namespace Rectangle
         {
             return this.length;
         }
-        public void SetLength(int length)
+        public int SetLength(int length)
         {
             this.length = length;
+            return this.length;
         }
         public int GetWidth()
         {
             return this.width;
         }
-        public void SetWidth(int width)
+        public int SetWidth(int width)
         {
             this.width = width;
+            return this.width;
         }
         public int GetPerimeter()
         {

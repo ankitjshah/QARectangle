@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29609.76
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rectangle", "Rectangle.csproj", "{55CC33FC-0A46-4AE9-802F-96A6B6C418FE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignment01", "Assignment01.csproj", "{55CC33FC-0A46-4AE9-802F-96A6B6C418FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignment01Test", "Assignment01Test\Assignment01Test.csproj", "{DAB29D6C-05AD-4C26-B855-DCC4194E686B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{55CC33FC-0A46-4AE9-802F-96A6B6C418FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{55CC33FC-0A46-4AE9-802F-96A6B6C418FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{55CC33FC-0A46-4AE9-802F-96A6B6C418FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAB29D6C-05AD-4C26-B855-DCC4194E686B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAB29D6C-05AD-4C26-B855-DCC4194E686B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAB29D6C-05AD-4C26-B855-DCC4194E686B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAB29D6C-05AD-4C26-B855-DCC4194E686B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
