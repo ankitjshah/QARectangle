@@ -11,8 +11,8 @@ namespace Assignment01
         static void Main(string[] args)
         {
             Rectangle rectangle = new Rectangle();
-            ChangeLength(rectangle);
-            ChangeWidth(rectangle);
+            //ChangeLength(rectangle);
+            //ChangeWidth(rectangle);
             InitApplication(rectangle);
         }
 
@@ -89,10 +89,10 @@ namespace Assignment01
                         ChangeWidth(rectangle);
                         break;
                     case "5":
-                        Console.WriteLine(rectangle.GetPerimeter());
+                        Console.WriteLine("Your Perimeter is: " + rectangle.GetPerimeter());
                         break;
                     case "6":
-                        Console.WriteLine(rectangle.GetArea());
+                        Console.WriteLine("Your Area is: " + rectangle.GetArea());
                         break;
                     case "7":
                         Environment.Exit(0);
