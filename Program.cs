@@ -11,8 +11,8 @@ namespace Assignment01
         static void Main(string[] args)
         {
             Rectangle rectangle = new Rectangle();
-            //ChangeLength(rectangle);
-            //ChangeWidth(rectangle);
+            ChangeLength(rectangle);
+            ChangeWidth(rectangle);
             InitApplication(rectangle);
         }
 

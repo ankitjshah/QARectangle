@@ -1,5 +1,6 @@
 ﻿using NUnit.Framework;
 using Assignment01;
+using System;
 
 namespace Assignment01Test
 {
@@ -57,11 +58,7 @@ namespace Assignment01Test
         public void GetPerimeter_IsTrue()
         {
             //Arrange
-            Rectangle rect = new Rectangle();
-
-            //Act
-            rect.SetLength(6);
-            rect.SetWidth(4);
+            Rectangle rect = new Rectangle(6, 4);
 
             //Assert
             Assert.AreEqual(20, rect.GetPerimeter());
@@ -71,11 +68,8 @@ namespace Assignment01Test
         public void GetArea_IsTrue()
         {
             //Arrange
-            Rectangle rect = new Rectangle();
+            Rectangle rect = new Rectangle(6, 4);
 
-            //Act
-            rect.SetLength(6);
-            rect.SetWidth(4);
 
             //Assert
             Assert.AreEqual(24, rect.GetArea());
@@ -127,34 +121,6 @@ namespace Assignment01Test
 
             //Assert
             Assert.LessOrEqual(2, rect.SetWidth(0));
-        }
-        [Test]
-        public void GetPerimeter_IsFalse()
-        {
-            //Arrange
-            Rectangle rect = new Rectangle();
-
-            //Act
-            rect.SetLength(6);
-            rect.SetWidth(4);
-
-            //Assert
-            Assert.AreEqual(21, rect.GetPerimeter());
-
-        }
-        [Test]
-        public void GetArea_IsFalse()
-        {
-            //Arrange
-            Rectangle rect = new Rectangle();
-
-            //Act
-            rect.SetLength(6);
-            rect.SetWidth(4);
-
-            //Assert
-            Assert.AreEqual(25, rect.GetArea());
-
         }
 
     }
